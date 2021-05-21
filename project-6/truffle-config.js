@@ -1,7 +1,7 @@
 
 const HDWallet =  require('truffle-hdwallet-provider');
 const infuraKey= "2024f842a36841629164ceefd3288dee";
-const mnemonic = "spirit supply whale amount human item harsh scare congress discover talent hamster";
+const mnemonic = "";
 
 module.exports = {
   networks: {
@@ -14,7 +14,7 @@ module.exports = {
       // Match any network id
     },
     rinkeby: {
-      provider: () => new HDWallet("spirit supply whale amount human item harsh scare congress discover talent hamster","https://rinkeby.infura.io/v3/2024f842a36841629164ceefd3288dee"),
+      provider: () => new HDWallet("","https://rinkeby.infura.io/v3/2024f842a36841629164ceefd3288dee"),
         network_id: 4,       // rinkeby's id
                // rinkeby has a lower block limit than mainnet
        gasPrice: 21000000000,
