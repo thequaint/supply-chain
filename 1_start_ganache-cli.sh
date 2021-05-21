@@ -1,0 +1,1 @@
+ganache-cli -m "leaf useful desert action head wagon enemy turtle guilt denial industry master"
