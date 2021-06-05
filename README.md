@@ -45,8 +45,7 @@ npm install
 Launch Ganache:
 
 ```
-ganache-cli -m "leaf useful desert action head wagon enemy turtle guilt denial industry master"
-```
+
 
 Your terminal should look something like this:
 
